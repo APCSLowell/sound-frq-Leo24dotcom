@@ -52,5 +52,7 @@ public class Sound
 
     for(int i = 0; i < newSamples.length; i++)
       newSamples[i] = samples[i+n];
+
+    samples = newSamples;
   }
 }
